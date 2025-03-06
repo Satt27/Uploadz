@@ -8,7 +8,7 @@
             <h2>Detail Foto:</h2>
         </div>
         <div class="card-body">
-            <img src="{{asset('storage/'. $photos->images)}}" style="max-height: 50vh;" alt="">
+            <img src="{{asset('storage/'. $photos->images)}}" style="height: 50vh; width: 80vh;" alt="">
             <h4>{{$photos->name}}</h4>
             <p><strong>Album:</strong> {{$photos->album->name}}</p>
             <p><strong>Deskripsi:</strong> {{$photos->description}}</p>
